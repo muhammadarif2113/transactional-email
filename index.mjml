@@ -1,0 +1,345 @@
+<mjml>
+  <mj-head>
+
+    <mj-style>
+      * {
+        box-sizing: border-box;
+      }
+      @media (max-width:480px) {
+            body{
+                background: yellow;
+            }
+
+            .center-mobile div{
+                text-align: center !important;
+            }
+
+            .width-mobile{
+                padding: 0 !important; 
+            }
+
+            .width-mobile div{
+                font-size: 14px !important;
+            }
+        }
+      
+      
+    </mj-style>
+
+    <mj-style inline="inline">
+        .footer-link{
+            text-decoration: underline;
+        }
+
+        .product-space{
+            display: block;
+            padding-top: 10px;
+        }
+
+        .bold{
+            font-weight: bold;
+        }
+
+    </mj-style>
+
+  </mj-head>
+
+    <mj-body>
+        <mj-section>
+            <mj-column> 
+                <mj-image width="200px" src="assets/banner-logo.png"/> 
+            </mj-column> 
+             Testing 
+        </mj-section> 
+
+        <mj-section padding="16px 0" background-color="#008190"> 
+        <mj-column > 
+            <mj-navbar hamburger="hamburger" ico-color="#ffffff">
+            <mj-navbar-link font-size="16px" padding="2px 19px" href="https://us.myprotein.com/?utm_source=ecrm-order-confirmation&utm_medium=email&utm_campaign=ecrm-order-confirmation&affil=thgemail&ecrmcid=2Kb6Apgd8EwZ3BBwqpP3jNYWJxMVkoRP&shae=C34%2B3vWiM%2BXNakFE%2BmW%2Bw5%2ByIAgA8TCDiSmabDnL0xc%3D&exn=&exv=&sendTime=1676849982" color="#ffffff">HOME</mj-navbar-link>
+            <mj-navbar-link font-size="16px" padding="2px 19px" href="https://us.myprotein.com//nutrition.list?utm_source=ecrm-order-confirmation&utm_medium=email&utm_campaign=ecrm-order-confirmation&affil=thgemail&ecrmcid=2Kb6Apgd8EwZ3BBwqpP3jNYWJxMVkoRP&shae=C34%2B3vWiM%2BXNakFE%2BmW%2Bw5%2ByIAgA8TCDiSmabDnL0xc%3D&exn=&exv=&sendTime=1676849982" color="#ffffff">OUR RANGE</mj-navbar-link>
+            <mj-navbar-link font-size="16px" padding="2px 19px" href="https://us.myprotein.com/your-goals.list?utm_source=ecrm-order-confirmation&utm_medium=email&utm_campaign=ecrm-order-confirmation&affil=thgemail&ecrmcid=2Kb6Apgd8EwZ3BBwqpP3jNYWJxMVkoRP&shae=C34%2B3vWiM%2BXNakFE%2BmW%2Bw5%2ByIAgA8TCDiSmabDnL0xc%3D&exn=&exv=&sendTime=1676849982" color="#ffffff">YOUR GOALS</mj-navbar-link>
+            <mj-navbar-link font-size="16px" padding="2px 19px" href="https://us.myprotein.com/your-goals/energy-endurance.list?utm_source=ecrm-order-confirmation&utm_medium=email&utm_campaign=ecrm-order-confirmation&affil=thgemail&ecrmcid=2Kb6Apgd8EwZ3BBwqpP3jNYWJxMVkoRP&shae=C34%2B3vWiM%2BXNakFE%2BmW%2Bw5%2ByIAgA8TCDiSmabDnL0xc%3D&exn=&exv=&sendTime=1676849982" color="#ffffff">YOUR SPORT</mj-navbar-link>
+            <mj-navbar-link font-size="16px" padding="2px 19px" href="https://us.myprotein.com/thezone/?utm_source=ecrm-order-confirmation&utm_medium=email&utm_campaign=ecrm-order-confirmation&affil=thgemail&ecrmcid=2Kb6Apgd8EwZ3BBwqpP3jNYWJxMVkoRP&shae=C34%2B3vWiM%2BXNakFE%2BmW%2Bw5%2ByIAgA8TCDiSmabDnL0xc%3D&exn=&exv=&sendTime=1676849982" color="#ffffff">THE ZONE</mj-navbar-link>
+            </mj-navbar>
+        </mj-column> 
+    </mj-section>
+
+    <mj-section padding-top="55px">
+        <mj-column padding="0"> 
+            <mj-text font-size="16px" align="center" padding="0"> Hi Saim, </mj-text>
+        </mj-column> 
+    </mj-section> 
+
+    <mj-section padding="0">
+        <mj-column> 
+            <mj-text align="center" padding="0" font-size="26px"> Thank you for your order </mj-text>
+        </mj-column> 
+    </mj-section> 
+
+    <mj-section>
+        <mj-column> 
+            <mj-text font-size="16px" align="center" padding="0"> Details of your order are listed below: </mj-text>
+        </mj-column> 
+    </mj-section> 
+
+    <mj-section padding-bottom="45px">
+        <mj-column> 
+           <mj-button font-size="16px" background-color="#007D1E" href="https://us.myprotein.com/login.jsp?utm_source=ecrm-order-confirmation&utm_medium=email&utm_campaign=ecrm-order-confirmation&affil=thgemail&returnTo=https%3A%2F%2Fus.myprotein.com%2FaccountHome.account%3Fecrmcid%3D2Kb6Apgd8EwZ3BBwqpP3jNYWJxMVkoRP%26shae%3DC34%252B3vWiM%252BXNakFE%252BmW%252Bw5%252ByIAgA8TCDiSmabDnL0xc%253D%26sendTime%3D1676849982">View Your Account</mj-button> 
+        </mj-column> 
+    </mj-section> 
+
+    <mj-wrapper padding="0">
+
+        <mj-section padding="0"> 
+            <mj-column padding="4px 0" background-color="#008190"> 
+                <mj-text align="center" color="#FFFFFF" font-size="17px"> Order Details </mj-text> 
+            </mj-column> 
+        </mj-section> 
+
+        <mj-section border="1px solid #BBBBBB">
+            <mj-column width="30%"> 
+                <mj-image padding="10px 0" width="100px" height="100px" src="assets/product.jpg"/>
+            </mj-column> 
+
+            <mj-column width="70%"> 
+                <mj-text css-class="center-mobile" padding="9px 0 9px 0" font-weight="bold" font-size="17px"> Impact Whey Protein - 5.5lb - Strawberry <span class="product-space"> Cream</mj-text> 
+                <mj-text css-class="center-mobile" padding="9px 0 9px 0" font-size="16px" font-weight="lighter"> Quantity 1</mj-text> 
+                <mj-text css-class="center-mobile" padding="9px 0 50px 0" font-size="16px" font-weight="lighter"> Price $99.99</mj-text> 
+            </mj-column> 
+
+                <mj-column width="100%" padding="0 15px"> 
+                    <mj-divider padding="0 0 10px 0" border-width="2px" border-style="solid" border-color= "#BBBBBB"/>
+                    <mj-text css-class="center-mobile width-mobile" font-size="12px" padding="1px 70px"> <span class="bold">Note:</span> For more up to date dispatch dates please keep an eye on your account</mj-text> 
+                </mj-column> 
+            
+        </mj-section> 
+    </mj-wrapper>
+
+    <mj-wrapper padding-top= "40px">
+
+        <mj-section padding="0"> 
+            <mj-column padding="4px 0" background-color="#008190"> 
+                <mj-text align="center" color="#FFFFFF" font-size="17px"> Order Summary </mj-text> 
+            </mj-column> 
+        </mj-section> 
+
+        <mj-section padding="30px 30px 0 30px" border-left="1px solid #BBBBBB" border-right="1px solid #BBBBBB"> 
+            <mj-column width="50%"> 
+                <mj-text align="left" font-size="16px"> Order Number: </mj-text>
+            </mj-column> 
+
+            <mj-column width="50%"> 
+                <mj-text align="right" font-size="16px"> 468318130 </mj-text> 
+            </mj-column> 
+
+        </mj-section> 
+
+        <mj-section padding="0 30px 0 30px" border-left="1px solid #BBBBBB" border-right="1px solid #BBBBBB"> 
+            <mj-column width="50%"> 
+                <mj-text align="left" font-size="16px"> Order Date: </mj-text>
+            </mj-column> 
+
+            <mj-column width="50%"> 
+                <mj-text align="right" font-size="16px"> 2023-02-19 23:39 UTC </mj-text> 
+            </mj-column>
+
+        </mj-section> 
+
+        <mj-section padding="0 30px 0 30px" border-left="1px solid #BBBBBB" border-right="1px solid #BBBBBB"> 
+            <mj-column width="50%"> 
+                <mj-text align="left" font-size="16px"> Offers Used: </mj-text>
+            </mj-column> 
+
+            <mj-column width="50%"> 
+                <mj-text align="right">  </mj-text> 
+            </mj-column>
+
+        </mj-section> 
+
+        <mj-section padding="0 30px 0 30px" border-left="1px solid #BBBBBB" border-right="1px solid #BBBBBB"> 
+            <mj-column width="50%"> 
+                <mj-text align="left" font-size="16px"> Presidents' Week Sale! Enjoy 45% off your order </mj-text>
+            </mj-column> 
+
+            <mj-column width="50%"> 
+                <mj-text align="right" font-size="16px"> - $45.00 </mj-text> 
+            </mj-column>
+
+        </mj-section> 
+
+        <mj-section padding="0 30px 0 30px" border-left="1px solid #BBBBBB" border-right="1px solid #BBBBBB"> 
+            <mj-column width="50%"> 
+                <mj-text font-size="16px" align="left"> Free shipping with your order! </mj-text>
+            </mj-column> 
+
+            <mj-column width="50%"> 
+                <mj-text font-size="16px" align="right"> - $7.99 </mj-text> 
+            </mj-column>
+
+        </mj-section> 
+
+        <mj-section padding="0 30px 0 30px" border-left="1px solid #BBBBBB" border-right="1px solid #BBBBBB"> 
+            <mj-column width="50%"> 
+                <mj-text font-size="16px" align="left"> Shipping: </mj-text>
+            </mj-column> 
+
+            <mj-column width="50%"> 
+                <mj-text font-size="16px" align="right"> $0.00 </mj-text> 
+            </mj-column>
+
+        </mj-section> 
+
+        <mj-section padding="0 30px 0 30px" border-left="1px solid #BBBBBB" border-right="1px solid #BBBBBB"> 
+            <mj-column width="50%"> 
+                <mj-text font-size="16px" align="left"> Total Tax: </mj-text>
+            </mj-column> 
+
+            <mj-column width="50%"> 
+                <mj-text font-size="16px" align="right"> $4.88 </mj-text> 
+            </mj-column>
+
+        </mj-section> 
+
+        <mj-section padding="0 30px 0 30px" border-left="1px solid #BBBBBB" border-right="1px solid #BBBBBB"> 
+            <mj-column width="50%"> 
+                <mj-text font-size="16px" align="left"> Total Cost: </mj-text>
+            </mj-column> 
+
+            <mj-column width="50%"> 
+                <mj-text font-size="16px" align="right"> $59.87 </mj-text> 
+            </mj-column>
+
+        </mj-section> 
+
+        <mj-section padding-bottom="13px" border-left="1px solid #BBBBBB" border-right="1px solid #BBBBBB" border-bottom="1px solid #BBBBBB">
+            <mj-column width="100%" padding="0 15px"> 
+                <mj-divider padding-top="20px" border-width="2px" border-style="solid" border-color="#BBBBBB" />
+                <mj-text css-class="center-mobile width-mobile" font-size="12px" padding="0 50px"> <span class="bold">Note:</span> For Credit Card and Paypal orders payment is not taken until point of dispatch.</mj-text> 
+            </mj-column> 
+        </mj-section>
+    </mj-section>
+
+
+    </mj-wrapper>
+
+    <mj-wrapper padding-top= "20px">
+        <mj-section padding="0"> 
+            <mj-column padding="4px 0" background-color="#008190"> 
+                <mj-text align="center" color="#FFFFFF" font-size="17px"> Shipping Details </mj-text> 
+            </mj-column> 
+        </mj-section> 
+
+        <mj-section border="1px solid #BBBBBB"> 
+            <mj-column width="50%"> 
+                <mj-text padding="7px" font-size="14px" align="center"> Saim Arif </mj-text> 
+                <mj-text padding="7px" font-size="14px" align="center"> 3476560349 </mj-text> 
+                <mj-text font-size="14px" align="center"> <a href="https://us.myprotein.com/">saimdev@gmail.com </a></mj-text>
+                <mj-text padding="20px 0 7px 0" font-size="14px" align="center"> Saim Arif </mj-text>
+                <mj-text padding="7px" font-size="14px" align="center"> 38 West Ave</mj-text>
+                <mj-text padding="7px" font-size="14px" align="center"> Brooklyn</mj-text>
+                <mj-text padding="7px" font-size="14px" align="center"> NY</mj-text>
+                <mj-text padding="7px" font-size="14px" align="center"> United States</mj-text>
+                <mj-text padding="7px 0 18px 0" font-size="14px" align="center"> 11214</mj-text>
+            </mj-column>  
+        </mj-section> 
+    </mj-wrapper>
+
+    <mj-section> 
+        <mj-column> 
+            <mj-text line-height="30px" align="center" font-size="16px" padding-top="4px"> To make sure you get your items as soon as possible, we may post <br>each item separately. Please note, payment will be taken from your <br> card or account within 48 hours.</mj-text>
+            <mj-text line-height="30px" align="center" font-size="16px" padding-top="12px"> This email is an acknowledgement of receipt of your order. Your <br>contract to purchase these items is not complete until we send you an <br>email confirming that the items have been dispatched to you.</mj-text>
+            <mj-text align="center" font-size="16px"> We hope to see you again soon.</mj-text>
+            <mj-text css-class="bold" align="center" font-size="16px" padding-top="5px"> Myprotein</mj-text>
+            <mj-text align="center" font-size="16px"> Have a question? Visit our help center</mj-text>
+        </mj-column> 
+    </mj-section> 
+
+    <mj-section background-color="#008190" padding="20px 0 0 0"> 
+        <mj-column> 
+            <mj-image padding="0" src="assets/shipping.png"/>
+        </mj-column> 
+        <mj-column> 
+            <mj-image padding="0" src="assets/app.png"/>
+        </mj-column> 
+        <mj-column> 
+            <mj-image padding="0" src="assets/zone.png"/>
+        </mj-column> 
+    </mj-section> 
+
+    <mj-section background-color="#45474B">  
+        <mj-column> 
+            <mj-text font-weight="bolder" font-size="17px" align="center" color="#FFFFFF"> Connect with us: </mj-text>
+            <mj-social font-size="25px" icon-size="30px" >
+                <mj-social-element 
+                    name="facebook" 
+                    src="assets/fb.png"
+                    href="https://www.facebook.com/scalero.io/" 
+                    border-radius="27px"
+                    padding="0 10px">
+                </mj-social-element>
+                <mj-social-element 
+                    name="twitter" 
+                    src="assets/twitter.png"
+                    href="https://twitter.com/scalero_io?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor"
+                    border-radius="27px"
+                    padding="0 10px">
+                </mj-social-element>
+                <mj-social-element 
+                    name="youtube" 
+                    src="assets/youtube.png"
+                    href="https://www.linkedin.com/company/scalero"
+                    border-radius="27px"
+                    padding="0 10px">
+                </mj-social-element>
+                <mj-social-element 
+                    name="instagram" 
+                    src="assets/instagram.png"
+                    href="https://www.linkedin.com/company/scalero"
+                    border-radius="27px"
+                    padding="0 10px">
+                </mj-social-element>
+                <mj-social-element 
+                    name="tiktok" 
+                    src="assets/tiktok.png"
+                    href="https://www.linkedin.com/company/scalero"
+                    border-radius="27px"
+                    padding="0 10px">
+                </mj-social-element>
+            </mj-social>
+        </mj-column>
+    </mj-section> 
+
+    <mj-section>
+        <mj-column> 
+            <mj-image padding-top="32px" src="assets/footer.png" padding="0 220px"/>
+        </mj-column> 
+    </mj-section> 
+
+    <mj-section padding="0">
+        <mj-column padding="0"> 
+            <mj-text line-height="20px" font-weight="lighter" padding="0" font-size="11px" font-weight="lighter" align="center">
+                2023 © The Hut.com Limited <br>
+                (trading as Myprotein) Registered in England No.5016010. Registered office: 5th Floor, Voyager <br>House, Chicago Avenue, Manchester Airport M90 3DQ. 
+            </mj-text> 
+        </mj-column> 
+    </mj-section> 
+
+    <mj-section>
+        <mj-column> 
+            <mj-text font-size="11px" color="#80828C" align="center">
+                <span class="footer-link"> Privacy Policy</span>
+                &nbsp;&nbsp;|&nbsp;&nbsp; 
+                <span class="footer-link"> Add to safe senders list</span>
+
+            </mj-text> 
+        </mj-column> 
+    </mj-section> 
+
+
+
+
+
+
+
+    </mj-body>
+</mjml> 
