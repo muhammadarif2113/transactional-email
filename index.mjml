@@ -6,10 +6,6 @@
         box-sizing: border-box;
       }
       @media (max-width:480px) {
-            body{
-                background: yellow;
-            }
-
             .center-mobile div{
                 text-align: center !important;
             }
